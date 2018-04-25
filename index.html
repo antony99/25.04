@@ -10,7 +10,22 @@
     height:100px;
     background-color: red;
     animation-name: backgroundColorAnimation;
-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  #b{
+    border-radius:7px; 
+    margin:20px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    animation-name: backgroundColorAnimation;
+    animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 3;
@@ -49,6 +64,8 @@ animation-duration: 3s;
 
   <div id="a">
   </div>
+  <div id="b">
+    </div>
 
 </body>
 
